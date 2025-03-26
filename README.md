@@ -28,14 +28,14 @@ The following deep learning models were implemented and evaluated for speech int
 The CNN v1 model consists of several convolutional layers designed to capture spatial features from input spectrograms and cochleograms.
 
 <div align="center">
-  <img src="images/CNN_V1.png" width="500">
+  <img src="images/CNN_V1_.png" width="500">
 </div>
 
 ### CNN v2
 The CNN v2 model is an improved version of CNN v1, with a deeper architecture and optimized layers to achieve better performance in speech intelligibility prediction.
 
 <div align="center">
-  <img src="images/CNN_V2.png" width="500">
+  <img src="images/CNN_V2_.png" width="500">
 </div>
 
 ### ResCNN
