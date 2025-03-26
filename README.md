@@ -12,13 +12,12 @@ The project focuses on utilizing Convolutional Neural Networks (CNN) and Recurre
 
 ### Why Spectrograms and Cochleograms?
 
-- **Spectrograms**: A spectrogram represents the frequency spectrum of the audio signal as it varies with time. It provides a time-frequency representation that allows the model to capture the spectral features of the speech signal. Since speech intelligibility is influenced by the patterns of these spectral features, spectrograms are a natural choice for input to the model.
+- **Spectrograms**: Provide a time-frequency representation of the audio signal, capturing the spectral features important for speech intelligibility prediction.
   
-- **Cochleograms**: Cochleograms are derived from the cochlear filterbank, mimicking how the human ear processes sound. These provide a more biologically-inspired representation of sound, which can be more robust to noise and distortions. Cochleograms preserve both time and frequency information while providing a better feature representation for speech intelligibility prediction, particularly in noisy environments.
+- **Cochleograms**: Mimic the human ear's processing of sound, offering a more robust feature representation, particularly in noisy environments.
 
-By using both spectrograms and cochleograms, we provide the model with different ways of interpreting the speech signal, which improves its ability to predict speech intelligibility under various conditions.
+Using both spectrograms and cochleograms gives the model different ways of interpreting the speech signal, improving its performance in various conditions.
 
----
 
 ## Models
 
