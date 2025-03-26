@@ -21,20 +21,29 @@ Using both spectrograms and cochleograms gives the model different ways of inter
 
 ## Models
 
-Three deep learning models were implemented and compared for speech intelligibility prediction:
+The following deep learning models were implemented and evaluated for speech intelligibility prediction:
 
-### 1. **CNN v1**: A simple CNN model trained on spectrograms or cochleograms.
-  - **Diagram for CNN v1** (Add your diagram here)
+### CNN v1
+The CNN v1 model consists of several convolutional layers designed to capture spatial features from input spectrograms and cochleograms.
 
-### 2. **CNN v2**: A more advanced CNN model that showed improved accuracy compared to CNN v1.
-  - **Diagram for CNN v2** (Add your diagram here)
+<div align="center">
+  <img src="images/CNN_V1_.svg" width="500">
+</div>
 
-### 3. **ResCNN**: A residual CNN model for improved feature learning and performance.
-  - **Diagram for ResCNN** (Add your diagram here)
+### CNN v2
+The CNN v2 model is an improved version of CNN v1, with a deeper architecture and optimized layers to achieve better performance in speech intelligibility prediction.
 
-The best model was selected based on performance metrics (e.g., RMSE, CC) and computational efficiency, with **CNN v2** offering the best balance of accuracy and training time.
+<div align="center">
+  <img src="images/CNN_V11_" width="500">
+</div>
 
----
+### ResCNN
+The ResCNN model incorporates residual connections to allow for more efficient training and to mitigate the vanishing gradient problem, resulting in improved model performance.
+
+<div align="center">
+  <img src="images/RESCNN.svg" width="500">
+</div>
+
 
 ## Experimentation
 
