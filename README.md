@@ -35,7 +35,7 @@ The CNN v1 model consists of several convolutional layers designed to capture sp
 The CNN v2 model is an improved version of CNN v1, with a deeper architecture and optimized layers to achieve better performance in speech intelligibility prediction.
 
 <div align="center">
-  <img src="images/CNN_V2_.png" width="500">
+  <img src="images/CNN_V11_.png" width="500">
 </div>
 
 ### ResCNN
