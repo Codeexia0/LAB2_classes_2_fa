@@ -18,6 +18,7 @@ The project focuses on utilizing Convolutional Neural Networks (CNN) and Recurre
 
 Using both spectrograms and cochleograms gives the model different ways of interpreting the speech signal, improving its performance in various conditions.
 
+---
 
 ## Models
 
@@ -27,23 +28,24 @@ The following deep learning models were implemented and evaluated for speech int
 The CNN v1 model consists of several convolutional layers designed to capture spatial features from input spectrograms and cochleograms.
 
 <div align="center">
-  <img src="images/CNN_V1_.svg" width="500">
+  <img src="images/CNN_V1.png" width="500">
 </div>
 
 ### CNN v2
 The CNN v2 model is an improved version of CNN v1, with a deeper architecture and optimized layers to achieve better performance in speech intelligibility prediction.
 
 <div align="center">
-  <img src="images/CNN_V11_" width="500">
+  <img src="images/CNN_V2.png" width="500">
 </div>
 
 ### ResCNN
 The ResCNN model incorporates residual connections to allow for more efficient training and to mitigate the vanishing gradient problem, resulting in improved model performance.
 
 <div align="center">
-  <img src="images/RESCNN.svg" width="500">
+  <img src="images/RESCNN.png" width="500">
 </div>
 
+---
 
 ## Experimentation
 
