@@ -49,39 +49,42 @@ The ResCNN model incorporates residual connections to allow for more efficient t
 
 ## Experimentation
 
-### Comparison of Predicted Intelligibility Distributions
+### Predicted Intelligibility Score Distributions  
 
-The following histogram compares the predicted intelligibility score distributions across all CNN models using **spectrogram features**.
+The histograms below compare the predicted intelligibility score distributions across all CNN models for both **spectrogram** and **cochleogram** features.
 
+#### Spectrogram Features  
 <div align="center">
-  <img src="images/his_spec.png" width="700">
-</div>
+  <img src="images/his_spec.png" width="750">
+</div>  
 
-The following histogram compares the predicted intelligibility score distributions across all CNN models using **cochleogram features**.
-
+#### Cochleogram Features  
 <div align="center">
-  <img src="images/his_coch.png" width="700">
-</div>
+  <img src="images/his_coch.png" width="750">
+</div>  
 
-The following scatter plot compares the predicted intelligibility scores across all CNN models using **spectrogram features**.
+### Scatter Plot of Predicted vs. True Scores  
 
+The scatter plots below illustrate the relationship between the true and predicted intelligibility scores across all CNN models using **spectrogram** and **cochleogram** features.
+
+#### Spectrogram Features  
 <div align="center">
-  <img src="images/scat_spec.png" width="700">
-</div>
+  <img src="images/scat_spec.png" width="750">
+</div>  
 
-The following scatter plot compares the predicted intelligibility scores across all CNN models using **cochleogram features**.
-
+#### Cochleogram Features  
 <div align="center">
-  <img src="images/scat_coch.png" width="700">
-</div>
+  <img src="images/scat_coch.png" width="750">
+</div>  
 
-### Key Results
+### Key Findings  
 
-- **CNN v2 with spectrogram input** achieved the best performance, offering an optimal balance between accuracy and training time.
-- **ResCNN** had the longest training time, but it offered promising performance, especially for deeper feature learning.
-- **CNN v1** was faster but less accurate compared to CNN v2.
+- **CNN v2 with spectrogram input** achieved the best balance between accuracy and computational efficiency.  
+- **ResCNN** required the longest training time but showed promising performance for deeper feature extraction.  
+- **CNN v1** trained the fastest but had lower accuracy compared to CNN v2.  
 
 ---
+
 
 ## Conclusion of the Thesis
 
