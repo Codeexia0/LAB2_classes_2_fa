@@ -1,8 +1,8 @@
-# Speech Intelligibility Prediction with CNN and RCNN
+# Speech Intelligibility Prediction with Neural Networks
 
 This repository contains code for predicting speech intelligibility using deep learning models based on the Clarity Prediction Challenge ([CPC1](https://claritychallenge.org/docs/cpc1/cpc1_intro)) dataset.
 
-This work was part of a B.Sc. thesis that aimed to investigate and develop neural networks for speech intelligibility prediction, achieving better results than the traditional STOI model.
+This work was part of a B\.Sc. thesis that aimed to investigate and develop neural networks for speech intelligibility prediction, evaluating their effectiveness against traditional intrusive objective metrics such as STOI[^1].
 
 ---
 
