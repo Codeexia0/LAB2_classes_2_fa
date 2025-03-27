@@ -96,5 +96,6 @@ Through experimentation, we compared the performance of CNN and RCNN models usin
 - **Transformer Models**: Exploring transformer-based models, such as Whisper, could provide better feature extraction and advance intelligibility prediction performance.  
 
 ## Acknowledgements
+This thesis is the research and work of [Emin Shirinov](https://github.com/Codeexia0) and [George Punnoose](https://github.com/George-P-1). The dataset used in this work was provided by [The Clarity Project](https://claritychallenge.org).
 
-This work was part of the Clarity Prediction Challenge 1 (CPC1) and was based on the dataset provided by [The Clarity Project](https://claritychallenge.org).
+[^1]: Cees H. Taal, Richard C. Hendriks, Richard Heusdens, and Jesper Jensen. “An Algorithm for Intelligibility Prediction of Time-Frequency Weighted Noisy Speech”. In: IEEE Transactions on Audio, Speech, and Language Processing 19.7 (Sept. 2011), pp. 2125–2136. doi: 10.1109/TASL.2011.2114881.
