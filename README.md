@@ -49,7 +49,31 @@ The ResCNN model incorporates residual connections to allow for more efficient t
 
 ## Experimentation
 
-The models were trained and evaluated on the CPC1 dataset, and various hyperparameters and architectural configurations were tested to optimize performance.
+### Comparison of Predicted Intelligibility Distributions
+
+The following histogram compares the predicted intelligibility score distributions across all CNN models using **spectrogram features**.
+
+<div align="center">
+  <img src="images/his_spec.png" width="700">
+</div>
+
+The following histogram compares the predicted intelligibility score distributions across all CNN models using **cochleogram features**.
+
+<div align="center">
+  <img src="images/his_coch.png" width="700">
+</div>
+
+The following scatter plot compares the predicted intelligibility scores across all CNN models using **spectrogram features**.
+
+<div align="center">
+  <img src="images/scat_spec.png" width="700">
+</div>
+
+The following scatter plot compares the predicted intelligibility scores across all CNN models using **cochleogram features**.
+
+<div align="center">
+  <img src="images/scat_coch.png" width="700">
+</div>
 
 ### Key Results
 
