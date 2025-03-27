@@ -83,13 +83,17 @@ The following scatter plot compares the predicted intelligibility scores across 
 
 ---
 
-## Conclusion
+## Conclusion of the Thesis
 
-This work demonstrated that CNN and RCNN models could significantly improve speech intelligibility prediction compared to traditional methods like STOI. The experiments showed that CNN v2 with spectrogram input offered the best trade-off between performance and computational efficiency.
-
-Future work could explore hybrid models combining CNNs and RNNs or experiment with other feature extraction techniques.
+Through experimentation, we compared the performance of CNN and RCNN models using RMSE and CC, demonstrating that deep learning-based approaches can outperform traditional methods like STOI in speech intelligibility prediction. CNNs trained on spectrograms and cochleograms effectively captured speech intelligibility patterns, leveraging both spectral and temporal information. Among the models tested, CNN v2 with spectrogram input achieved the best trade-off between accuracy and computational efficiency.
 
 ---
+
+## Further Work  
+
+- **Hybrid Models**: Future research should explore hybrid architectures that combine CNNs with recurrent components to enhance temporal modeling in speech intelligibility prediction.  
+- **Alternative Feature Representations**: Investigating other auditory-inspired feature representations beyond spectrograms and cochleograms may improve model robustness in diverse listening conditions.  
+- **Transformer Models**: Exploring transformer-based models, such as Whisper, could provide better feature extraction and advance intelligibility prediction performance.  
 
 ## Acknowledgements
 
