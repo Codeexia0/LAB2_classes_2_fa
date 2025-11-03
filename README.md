@@ -7,7 +7,7 @@ The goal is to analyze infection, vaccination, and mortality trends across count
 ---
 
 ## 📂 Project Structure
-- **covid19_data_exploration.sql** – SQL scripts used to explore and analyze COVID-19 datasets.  
+- **covid19_data_exploration.sql** – SQL script used to explore and analyze COVID-19 datasets.  
 - **COVID19_Vaccination_Dashboard.pbix** – Power BI dashboard visualizing vaccination progress.  
 - **COVID19_Vaccination_Dashboard.png** – Preview of the Power BI dashboard.  
 - **raw_dataset/** – Contains raw input data files.  
@@ -16,26 +16,40 @@ The goal is to analyze infection, vaccination, and mortality trends across count
 ---
 
 ## 🧠 Analysis Highlights
-- Examines global trends in cases, deaths, and vaccination rates.
-- Identifies countries with the highest vaccination progress.
-- Explores correlation between vaccination and case fatality rates.
+- Examined global trends in COVID-19 cases, deaths, and vaccination rates.  
+- Calculated death percentage for individual countries (e.g., Azerbaijan).  
+- Determined COVID-19 impact on population (% infected) per country.  
+- Identified countries and continents with highest infection and death rates.  
+- Combined COVID-19 death and vaccination datasets to analyze vaccination rollout relative to population.  
+- Used CTEs and temporary tables to compute rolling vaccinations and percentage of population vaccinated.
+
+---
+
+## 🧩 SQL View Creation
+A SQL view named **`PercentPopulationVaccinated`** was created to streamline vaccination analysis.  
+The view calculates cumulative vaccination counts over time for each country, making it easier to analyze trends and visualize vaccination progress in Power BI.
+
+---
+
+## 📊 Power BI Visualization
+The SQL view **`PercentPopulationVaccinated`** was used as the data source for the **COVID-19 Vaccination Dashboard** in Power BI.
+
+The dashboard visualizes:
+- Global and continental vaccination progress  
+- Comparison of vaccination rates relative to population  
+- Trends in total cases, deaths, and vaccinations over time  
+
+All visuals are included in the Power BI file:  
+**`COVID19_Vaccination_Dashboard.pbix`**
 
 ---
 
 ## 🛠️ Tools Used
-- **SQL** for data exploration (queries written in `covid19_data_exploration.sql`)
-- **Power BI** for dashboard creation and visualization
-- **Excel / CSV datasets** for data input and transformation
+- **SQL Server** – for data exploration, transformation, and creating views  
+- **Power BI** – for interactive dashboard creation and data visualization  
+- **Excel / CSV datasets** – as input data sources for analysis  
 
 ---
 
 ## 📈 Dashboard Preview
 ![Dashboard Preview](./COVID19_Vaccination_Dashboard.png)
-
----
-
-## 📅 Updates
-- Removed old Excel datasets (`CovidDeaths.xlsx`, `CovidVaccinations.xlsx`)
-- Added new cleaned datasets (`raw_dataset/`, `ready_dataset/`)
-- Added Power BI dashboard (`COVID19_Vaccination_Dashboard.pbix`)
-- Updated SQL script (`covid19_data_exploration.sql`)
