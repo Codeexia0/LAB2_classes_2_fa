@@ -41,7 +41,9 @@ The dashboard includes the following visualizations and features:
 - **Card visual** showing the **global vaccination percentage** as of the latest date.  
 - **Slicer** to filter data by date range for interactive analysis.  
 
-All visuals are included in the Power BI file:  
+You can **view the dashboard online** here: [Power BI Dashboard Link](https://app.powerbi.com/groups/me/reports/6c681e50-b2b3-4d9b-ad4d-f7057faf3250/8e0ac9930efcc6c2d432?experience=power-bi)
+
+All visuals are also included in the Power BI file:  
 **`COVID19_Vaccination_Dashboard.pbix`**
 
 ---
