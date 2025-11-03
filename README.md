@@ -32,12 +32,14 @@ The view calculates cumulative vaccination counts over time for each country, ma
 ---
 
 ## 📊 Power BI Visualization
-The SQL view **`PercentPopulationVaccinated`** was used as the data source for the **COVID-19 Vaccination Dashboard** in Power BI.
+The SQL view **`PercentPopulationVaccinated`** was used as the data source for the **COVID-19 Vaccination Dashboard** in Power BI.  
 
-The dashboard visualizes:
-- Global and continental vaccination progress  
-- Comparison of vaccination rates relative to population  
-- Trends in total cases, deaths, and vaccinations over time  
+The dashboard includes the following visualizations and features:  
+- **Plot of vaccination progress over time** for individual countries.  
+- **Vaccination overview table by country** showing cumulative counts and latest vaccination data.  
+- **Stacked bar charts** visualizing vaccination coverage by continent and country (% of population vaccinated).  
+- **Card visual** showing the **global vaccination percentage** as of the latest date.  
+- **Slicer** to filter data by date range for interactive analysis.  
 
 All visuals are included in the Power BI file:  
 **`COVID19_Vaccination_Dashboard.pbix`**
