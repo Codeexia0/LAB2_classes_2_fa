@@ -6,6 +6,13 @@ The goal is to analyze infection, vaccination, and mortality trends across count
 
 ---
 
+## 🛠️ Tools Used
+- **SQL Server** – for data exploration, transformation, and creating views  
+- **Power BI** – for interactive dashboard creation and data visualization  
+- **Excel** – as input data source
+
+---
+
 ## 📂 Project Structure
 - **covid19_data_exploration.sql** – SQL script used to explore and analyze COVID-19 datasets.  
 - **COVID19_Vaccination_Dashboard.pbix** – Power BI dashboard visualizing vaccination progress.  
@@ -45,13 +52,6 @@ You can **view the dashboard online** here: [Power BI Dashboard Link](https://ap
 
 All visuals are also included in the Power BI file:  
 **`COVID19_Vaccination_Dashboard.pbix`**
-
----
-
-## 🛠️ Tools Used
-- **SQL Server** – for data exploration, transformation, and creating views  
-- **Power BI** – for interactive dashboard creation and data visualization  
-- **Excel / CSV datasets** – as input data sources for analysis  
 
 ---
 
